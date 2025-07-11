@@ -29,4 +29,4 @@ const App = () => {
   );
 };
 
-export default App; //nan oru thevidiya paiyan rohsan
+export default App; 
