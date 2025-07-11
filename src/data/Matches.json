@@ -11,7 +11,7 @@
       "team1": {
         "name": "Australia",
         "shortName": "AUS",
-        "innings": [
+        "innings": [  
           {
             "inningNumber": 1,
             "score": 280,
