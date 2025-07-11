@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import matches from '../data/matches.json';
+import matches from '../matches.json';
 import './DetailStyle.css';
 
 const MatchDetail = () => {

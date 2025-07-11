@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MatchCard from './components/MatchCard';
 import MatchDetail from './components/MatchDetail';
-import matches from './data/matches.json';
+import matches from './matches.json';
 import './App.css';
 
 const App = () => {
