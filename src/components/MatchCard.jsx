@@ -1,12 +1,16 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './CardStyle.css';
+import './MatchCard.css';
 
 const MatchCard = ({ match }) => {
   const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate(`/match/${match.id}`);
+  };
+
   return (
-    <div className="match-card" onClick={() => navigate(`/match/${match.id}`)}>
+     <div className="match-card" onClick={() => navigate(`/match/${match.id}`)}>
       <div className="match-header">
         <h2>{match.matchTitle}</h2>
         <span className="match-type">{match.matchType}</span>
@@ -19,6 +23,6 @@ const MatchCard = ({ match }) => {
       <p className="match-status">{match.status}</p>
     </div>
   );
-};
 
+}
 export default MatchCard;

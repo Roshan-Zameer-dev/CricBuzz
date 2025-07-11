@@ -1,0 +1,38 @@
+.match-card {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.match-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.match-type {
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #0077cc;
+  padding: 2px 10px;
+  border-radius: 6px;
+}
+.match-meta {
+  font-size: 13px;
+  color: #666;
+}
+.team-scores {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+.match-status {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #27ae60;
+}

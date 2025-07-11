@@ -1,15 +1,38 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import matches from '../matches.json';
 import './DetailStyle.css';
 
 const MatchDetail = () => {
   const { id } = useParams();
-  const match = matches.find(m => m.id === parseInt(id));
   const navigate = useNavigate();
 
+  const [match, setMatch] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+  fetch('/Matches.json')
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("Fetched data:", data); // 👈 Debug log
+      const selectedMatch = data.find(m => m.id === parseInt(id));
+      if (selectedMatch) {
+        setMatch(selectedMatch);
+      } else {
+        setError('Match not found');
+      }
+      setLoading(false);
+    })
+    .catch((err) => {
+      console.error(err);
+      setError('Failed to load match data');
+      setLoading(false);
+    });
+}, [id]);
+
+
   const renderInnings = (innings, teamName, opponentName) => (
-    <div>
+    <div key={`${teamName}-${innings.inningNumber}`}>
       <h3>{teamName} - {innings.inningNumber}st Innings</h3>
       <div className="score-box">{innings.score}/{innings.wickets} ({innings.overs} ov)</div>
 
@@ -57,6 +80,9 @@ const MatchDetail = () => {
       </table>
     </div>
   );
+
+  if (loading) return <div className="detail-container">Loading match data...</div>;
+  if (error) return <div className="detail-container error">{error}</div>;
 
   return (
     <div className="detail-container">
