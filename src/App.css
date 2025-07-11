@@ -1,0 +1,11 @@
+.app-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffcd8;
+  min-height: 100vh;
+  padding: 20px;
+}
+.match-list {
+  display: grid;
+  gap: 20px;
+}
+

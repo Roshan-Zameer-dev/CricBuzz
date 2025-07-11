@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "matchTitle": "India vs Australia - 1st Test",
+    "venue": "MCG",
+    "date": "2024-01-01",
+    "status": "India won by 20 runs",
+    "matchType": "Test",
+    "result": "completed",
+    "teams": {
+      "team1": {
+        "name": "Australia",
+        "shortName": "AUS",
+        "innings": [
+          {
+            "inningNumber": 1,
+            "score": 280,
+            "wickets": 10,
+            "overs": 80.3,
+            "batting": [{
+                "name": "Smith",
+                "runs": 121,
+                "balls": 119,
+                "fours": 10,
+                "sixes": 3,
+                "sr": 78.18,
+                "out": "Bowled"
+              },
+              {
+                "name": "Warner",
+                "runs": 105,
+                "balls": 110,
+                "fours": 8,
+                "sixes": 1,
+                "sr": 68.18,
+                "out": "Caught"
+              },
+              {
+                "name": "Khawaja",
+                "runs": 61,
+                "balls": 91,
+                "fours": 5,
+                "sixes": 6,
+                "sr": 76.18,
+                "out": "LBW"
+              }
+            ],
+            "bowling": [
+              {
+                "name": "Shami",
+                "overs": 12,
+                "maidens": 1,
+                "runs": 40,
+                "wickets": 4,
+                "economy": 3.33
+              },
+              {
+                "name": "Bumrah",
+                "overs": 10,
+                "maidens": 2,
+                "runs": 32,
+                "wickets": 3,
+                "economy": 2.33
+              },
+              {
+                "name": "Arshdeep Singh",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 43,
+                "wickets": 3,
+                "economy": 3.83
+              }
+            ]
+          }
+        ]
+      },
+      "team2": {
+        "name": "India",
+        "shortName": "IND",
+        "innings": [
+          {
+            "inningNumber": 1,
+            "score": 300,
+            "wickets": 6,
+            "overs": 85.0,
+            "batting": [
+              {
+                "name": "Rohit",
+                "runs": 120,
+                "balls": 150,
+                "fours": 12,
+                "sixes": 3,
+                "sr": 80.0,
+                "out": "LBW"
+              },
+              {
+                "name": "kohli",
+                "runs": 92,
+                "balls": 110,
+                "fours": 13,
+                "sixes": 4,
+                "sr": 85.0,
+                "out": "Caught"
+              },
+              {
+                "name": "Dhoni",
+                "runs": 70,
+                "balls": 36,
+                "fours": 8,
+                "sixes": 9,
+                "sr": 140.0,
+                "out": "Caught"
+              }
+            ],
+            "bowling": [
+              {
+                "name": "Cummins",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 45,
+                "wickets": 2,
+                "economy": 3.0
+              },
+              {
+                "name": "Starc",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 47,
+                "wickets": 2,
+                "economy": 3.0
+              },
+              {
+                "name": "Boland",
+                "overs": 11,
+                "maidens": 3,
+                "runs": 51,
+                "wickets": 1,
+                "economy": 4.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  } , 
+  {
+    "id": 2,
+    "matchTitle": "England vs South Africa - 3rd ODI",
+    "venue": "Lords",
+    "date": "2024-02-04",
+    "status": "South Africa won by 4 wickets",
+    "matchType": "ODI",
+    "result": "Completed",
+    "teams": {
+      "team1": {
+        "name": "England",
+        "shortName": "ENG",
+        "innings": [
+          {
+            "inningNumber": 1,
+            "score": 310,
+            "wickets": 7,
+            "overs": 50,
+            "batting": [{
+                "name": "Root",
+                "runs": 91,
+                "balls": 119,
+                "fours": 10,
+                "sixes": 3,
+                "sr": 78.18,
+                "out": "Bowled"
+              },
+              {
+                "name": "Stokes",
+                "runs": 75,
+                "balls": 110,
+                "fours": 8,
+                "sixes": 1,
+                "sr": 68.18,
+                "out": "Caught"
+              },
+              {
+                "name": "Morgan",
+                "runs": 61,
+                "balls": 91,
+                "fours": 5,
+                "sixes": 6,
+                "sr": 76.18,
+                "out": "LBW"
+              }
+            ],
+            "bowling": [
+              {
+                "name": "Rabada",
+                "overs": 12,
+                "maidens": 1,
+                "runs": 40,
+                "wickets": 4,
+                "economy": 3.33
+              },
+              {
+                "name": "jansen",
+                "overs": 10,
+                "maidens": 2,
+                "runs": 32,
+                "wickets": 3,
+                "economy": 2.33
+              },
+              {
+                "name": "maharaj",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 43,
+                "wickets": 3,
+                "economy": 3.83
+              }
+            ]
+          }
+        ]
+      },
+      "team2": {
+        "name": "South Africa",
+        "shortName": "SA",
+        "innings": [
+          {
+            "inningNumber": 1,
+            "score": 314,
+            "wickets": 6,
+            "overs": 50,
+            "batting": [
+              {
+                "name": "De Kock",
+                "runs": 120,
+                "balls": 110,
+                "fours": 12,
+                "sixes": 3,
+                "sr": 80.0,
+                "out": "LBW"
+              },
+              {
+                "name": "Miller",
+                "runs": 92,
+                "balls": 110,
+                "fours": 13,
+                "sixes": 4,
+                "sr": 85.0,
+                "out": "Caught"
+              },
+              {
+                "name": "Bavuma",
+                "runs": 70,
+                "balls": 36,
+                "fours": 8,
+                "sixes": 9,
+                "sr": 140.0,
+                "out": "Caught"
+              }
+            ],
+            "bowling": [
+              {
+                "name": "Stokes",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 45,
+                "wickets": 1,
+                "economy": 3.0
+              },
+              {
+                "name": "Archer",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 47,
+                "wickets": 2,
+                "economy": 3.0
+              },
+              {
+                "name": "Sam Curran",
+                "overs": 11,
+                "maidens": 3,
+                "runs": 51,
+                "wickets": 1,
+                "economy": 4.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "matchTitle": "New Zealand vs Afganisthan - 1st T20i",
+    "venue": "Riwadh ",
+    "date": "2024-02-04",
+    "status": "New Zealand won by 16 runs",
+    "matchType": "T20i",
+    "result": "Completed",
+    "teams": {
+      "team1": {
+        "name": "New zealand",
+        "shortName": "NZ",
+        "innings": [
+          {
+            "inningNumber": 1,
+            "score": 210,
+            "wickets": 7,
+            "overs": 20,
+            "batting": [{
+                "name": "Root",
+                "runs": 91,
+                "balls": 119,
+                "fours": 10,
+                "sixes": 3,
+                "sr": 78.18,
+                "out": "Bowled"
+              },
+              {
+                "name": "Stokes",
+                "runs": 75,
+                "balls": 110,
+                "fours": 8,
+                "sixes": 1,
+                "sr": 68.18,
+                "out": "Caught"
+              },
+              {
+                "name": "Morgan",
+                "runs": 61,
+                "balls": 91,
+                "fours": 5,
+                "sixes": 6,
+                "sr": 76.18,
+                "out": "LBW"
+              }
+            ],
+            "bowling": [
+              {
+                "name": "Rabada",
+                "overs": 12,
+                "maidens": 1,
+                "runs": 40,
+                "wickets": 4,
+                "economy": 3.33
+              },
+              {
+                "name": "jansen",
+                "overs": 10,
+                "maidens": 2,
+                "runs": 32,
+                "wickets": 3,
+                "economy": 2.33
+              },
+              {
+                "name": "maharaj",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 43,
+                "wickets": 3,
+                "economy": 3.83
+              }
+            ]
+          }
+        ]
+      },
+      "team2": {
+        "name": "Afganisthan",
+        "shortName": "AFG",
+        "innings": [
+          {
+            "inningNumber": 1,
+            "score": 194,
+            "wickets": 10,
+            "overs": 19,
+            "batting": [
+              {
+                "name": "De Kock",
+                "runs": 120,
+                "balls": 110,
+                "fours": 12,
+                "sixes": 3,
+                "sr": 80.0,
+                "out": "LBW"
+              },
+              {
+                "name": "Miller",
+                "runs": 92,
+                "balls": 110,
+                "fours": 13,
+                "sixes": 4,
+                "sr": 85.0,
+                "out": "Caught"
+              },
+              {
+                "name": "Bavuma",
+                "runs": 70,
+                "balls": 36,
+                "fours": 8,
+                "sixes": 9,
+                "sr": 140.0,
+                "out": "Caught"
+              }
+            ],
+            "bowling": [
+              {
+                "name": "Stokes",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 45,
+                "wickets": 1,
+                "economy": 3.0
+              },
+              {
+                "name": "Archer",
+                "overs": 15,
+                "maidens": 3,
+                "runs": 47,
+                "wickets": 2,
+                "economy": 3.0
+              },
+              {
+                "name": "Sam Curran",
+                "overs": 11,
+                "maidens": 3,
+                "runs": 51,
+                "wickets": 1,
+                "economy": 4.0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

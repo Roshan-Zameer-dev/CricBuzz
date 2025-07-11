@@ -1,0 +1,36 @@
+
+.detail-container {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.back-btn {
+  background: none;
+  border: none;
+  color: #0077cc;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.score-box {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+.score-table th,
+.score-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.score-table th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+}
